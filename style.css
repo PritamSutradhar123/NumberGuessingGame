@@ -1,0 +1,80 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+    font-size: 15px;
+    padding: 10px;
+}
+
+#container{
+    border: 1px solid;
+    border-radius: 10px;
+    height: 500px;
+    text-align: center;
+    width: 50%;
+    margin: auto;
+}
+@media screen and (max-width: 701px) {
+    #container{
+
+        width: 300px;
+    }
+    
+}
+
+button{
+    background-color: hsla(180, 62%, 41%, 0.555);
+    border: 1px solid;
+    border-radius: 5px;
+    height: 30px;
+    width: 70px;
+    
+}
+label:hover{
+    cursor: pointer;
+    background-color: rgb(10, 53, 39);
+    color: white;
+    box-shadow: 1px 1px 10px;
+}
+button:hover{
+    cursor: pointer;
+    background-color: rgb(28, 61, 90);
+    color: rgb(239, 239, 239);
+    box-shadow: 1px 1px 10px;
+}
+#inputText{
+    margin: 10px;
+    display: none;
+}
+h2{
+    display:none;
+    color: hsl(120, 49%, 18%);
+}
+h3{
+    color: hsl(120, 49%, 18%);
+}
+h1{
+    color: aliceblue;
+}
+
+#guessbtn{
+    display:none;
+    
+} 
+div[id = "container"]{
+    background-color: rgb(56, 164, 164);
+    
+}
+div[id = "main"]{
+    
+    height: 300px;
+    margin: 10px;
+    border-radius: 10px;
+    padding: 20px;;
+    background-color: rgb(62, 231, 231);
+}
+label{
+    text-shadow: 10px;;
+}
+input{
+    text-align: center;
+}
